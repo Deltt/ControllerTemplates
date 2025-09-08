@@ -1,6 +1,9 @@
+MultiplayerSynchronizer
+ShapeCast3D
+RayCast3D
+RigidBody3D
 Camera3D
 Node3D
-MultiplayerSynchronizer
 CollisionShape3D
 MeshInstance3D
 CharacterBody3D

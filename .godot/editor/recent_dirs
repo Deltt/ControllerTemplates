@@ -1,3 +1,4 @@
+res://ControllerTemplates/RigidBodyPlayer
 res://ControllerTemplates/StrategyController
 res://ControllerTemplates/CharacterBodyPlayer
 res://ControllerTemplates/ThirdPersonController
