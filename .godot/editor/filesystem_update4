@@ -1,3 +1,2 @@
-res://ControllerTemplates/StrategyController/strategy_camera.tscn
-res://ControllerTemplates/CharacterBodyPlayer/character_body_player.gd
-res://ControllerTemplates/RigidBodyPlayer/rigid_body_player.gd
+res://world.tscn
+res://ControllerTemplates/CharacterBodyPlayer/character_body_player.tscn

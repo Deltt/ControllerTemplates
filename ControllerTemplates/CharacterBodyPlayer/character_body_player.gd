@@ -32,6 +32,10 @@ func _physics_process(delta: float) -> void:
 	if Input.is_key_pressed(KEY_C):
 		velocity.y = 0.0
 
+	if get_viewport().get_camera_3d() == null:
+		print("No active camera found!")
+		return
+
 	var key_input : Vector3
 	key_input.x = float(Input.is_key_pressed(KEY_D)) - float(Input.is_key_pressed(KEY_A))
 	key_input.z = float(Input.is_key_pressed(KEY_S)) - float(Input.is_key_pressed(KEY_W))
