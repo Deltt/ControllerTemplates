@@ -1,2 +1,4 @@
-res://world.tscn
 res://ControllerTemplates/CharacterBodyPlayer/character_body_player.tscn
+res://world.tscn
+res://ControllerTemplates/character_body_player/character_body_player.tscn
+res://controller_templates/character_body_player/character_body_player.tscn

@@ -1,7 +1,7 @@
 [gd_scene load_steps=5 format=3 uid="uid://vngbcj1f1wuf"]
 
-[ext_resource type="PackedScene" uid="uid://crgjt0i323wbs" path="res://ControllerTemplates/CharacterBodyPlayer/character_body_player.tscn" id="1_f3sb7"]
-[ext_resource type="PackedScene" uid="uid://bqa22ktg0hj8" path="res://ControllerTemplates/ThirdPersonController/third_person_camera.tscn" id="2_fj7yv"]
+[ext_resource type="PackedScene" uid="uid://crgjt0i323wbs" path="res://controller_templates/character_body_player/character_body_player.tscn" id="1_f3sb7"]
+[ext_resource type="PackedScene" uid="uid://bqa22ktg0hj8" path="res://controller_templates/third_person_camera/third_person_camera.tscn" id="2_fj7yv"]
 
 [sub_resource type="CylinderShape3D" id="CylinderShape3D_gv5m4"]
 radius = 20.0
@@ -29,3 +29,4 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.61183, 0)
 
 [node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
 transform = Transform3D(0.860555, 0.321405, -0.39515, 0, 0.775782, 0.631001, 0.509357, -0.543011, 0.667604, 0, 3.51244, 0)
+shadow_enabled = true
